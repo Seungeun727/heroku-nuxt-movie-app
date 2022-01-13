@@ -40,7 +40,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxtjs/style-resources'
+    '@nuxtjs/style-resources',
+    '@nuxtjs/dotenv'
   ],
 
   styleResources: {
@@ -59,13 +60,13 @@ export default {
     },
     postcss: {
       plugins: [
-        require('autoprefixer')
+        'autoprefixer'
       ]
     }
   },
 
   serverMiddleware: [
-    { path: '/.netlify/functions/movie', 
+    { path: '/api/movie', 
       handler: '~/server-middleware/movie.js'
     }
   ]

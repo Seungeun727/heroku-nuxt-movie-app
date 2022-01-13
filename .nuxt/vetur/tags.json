@@ -1,0 +1,26 @@
+{
+  "Footer": {
+    "description": "Auto imported from components/Footer.vue"
+  },
+  "Header": {
+    "description": "Auto imported from components/Header.vue"
+  },
+  "Headline": {
+    "description": "Auto imported from components/Headline.vue"
+  },
+  "Loader": {
+    "description": "Auto imported from components/Loader.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "MovieItem": {
+    "description": "Auto imported from components/MovieItem.vue"
+  },
+  "MovieList": {
+    "description": "Auto imported from components/MovieList.vue"
+  },
+  "Search": {
+    "description": "Auto imported from components/Search.vue"
+  }
+}

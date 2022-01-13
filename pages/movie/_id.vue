@@ -83,8 +83,12 @@ export default {
   components: {
     Loader
   },
-  data() {
-    return {
+  // SSR이 일어나기 전에 실행된다.
+  async asyncData({store, params}) {
+    await store.dispatch('movie/searchMovieWithId', {
+      id: params.id
+    })
+    return {  // SSR이 끝난 후 페이지 렌더링
       imageLoading: true
     }
   },
@@ -93,11 +97,6 @@ export default {
       'loading',
       'theMovie'
     ])
-  },
-  created() {
-    this.$store.dispatch('movie/searchMovieWithId', {
-      id: this.$route.params.id
-    })
   },
   methods: {
     requestDiffSizeImage(url, size = 700) {
