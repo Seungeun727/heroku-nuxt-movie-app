@@ -1,0 +1,1 @@
+// Nuxt는 index.js 파일 존재 시 store을 활성화한다.
