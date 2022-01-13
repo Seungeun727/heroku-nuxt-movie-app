@@ -62,5 +62,11 @@ export default {
         require('autoprefixer')
       ]
     }
-  }
+  },
+
+  serverMiddleware: [
+    { path: '/.netlify/functions/movie', 
+      handler: '~/server-middleware/movie.js'
+    }
+  ]
 }
