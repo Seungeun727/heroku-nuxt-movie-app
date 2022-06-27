@@ -2,22 +2,22 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "C:\\\\app\\\\nuxt-movie-app\\\\pages\\\\about.vue",
+    "component": "C:\\\\app\\\\vue\\\\nuxt-movie-app\\\\pages\\\\about.vue",
     "chunkName": "pages/about",
-    "_name": "_20d0790f"
+    "_name": "_4cc9afa6"
   },
   {
     "name": "movie-id",
     "path": "/movie/:id?",
-    "component": "C:\\\\app\\\\nuxt-movie-app\\\\pages\\\\movie\\\\_id.vue",
+    "component": "C:\\\\app\\\\vue\\\\nuxt-movie-app\\\\pages\\\\movie\\\\_id.vue",
     "chunkName": "pages/movie/_id",
-    "_name": "_a9c49910"
+    "_name": "_984c71cc"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\app\\\\nuxt-movie-app\\\\pages\\\\index.vue",
+    "component": "C:\\\\app\\\\vue\\\\nuxt-movie-app\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_408853d4"
+    "_name": "_0d59fa1c"
   }
 ]

@@ -60,13 +60,14 @@ export default {
     },
     postcss: {
       plugins: [
-        'autoprefixer'
+        require('autoprefixer')
       ]
     }
   },
 
   serverMiddleware: [
-    { path: '/api/movie', 
+    { 
+      path: '/api/movie', 
       handler: '~/server-middleware/movie.js'
     }
   ]
