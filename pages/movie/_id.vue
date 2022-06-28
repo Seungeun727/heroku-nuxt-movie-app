@@ -113,6 +113,19 @@ export default {
         })
       return src
     }
+  },
+  head() {
+    return {
+       // nuxt.config.js의 head 옵션의 하위 meta 옵션
+      meta: [
+        { hid: 'og:type', property: 'og:type', content: 'website'},
+        { hid: 'og:site_name', property: 'og:site_name', content: 'Nuxt Movie App'},
+        { hid: 'og:title', propert: 'og:title', content: this.theMovie.Title},
+        { hid: 'og:description', property: 'og:description', content: this.theMovie.Plot},
+        { hid: 'og:image', property: 'og:image', content: this.theMovie.Poster},
+        { hid: 'og:url', property: 'og:url', content: `${process.env.CLIENT_URL}${this.$route.fullPath}` } 
+      ]
+    }
   }
 }
 </script>
