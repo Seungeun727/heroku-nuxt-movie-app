@@ -155,7 +155,7 @@ export default {
     &.spec {
       width: 60%;
       height: 30px;
-      margin-top: 20px;
+      margin-top: 20px; 
     }
     &.plot {
       width: 100%;
